@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab</title>
+</head>
+<body>
+	<form action="/submit" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Einstein"  maxlength="25" required>
+		<br><br>
+
+		<label for="emai">Email:</label>
+		<input type="email" id="emai" name="email" value="test@example.com"minlength="6"  required autofocus>
+		<br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" minlength="6" required>
+		<br><br>
+
+		<label for="category">Category:</label>
+        <select id="category" name="category">
+        	<option value="student">Student</option>
+        	<option value="employee">Employee</option>
+        	<option value="freelancer" selected>Freelancer</option>
+        </select><br><br>
+        <label for="event date">Event Date:</label>
+        <input type="date" name="event date" required><br><br>
+
+        <label>Tickets:</label><br><br>
+        <input type="radio" id="ticket1" name="tickets" value="1">
+        <label for="ticket1">1 ticket</label><br>
+        <input type="radio" id="ticket2" name="tickets" value="2" checked>
+        <label for="ticket2">2 tickets</label><br>
+        <input type="radio" id="ticket3" name="tickets" value="3">
+        <label for="ticket3">3 tickets
+        
+        <br><br>
+
+        <label for=" payement">Payement:</label>
+        <input type="checkbox" id=" payement" name=" payement" value="online_payement required>
+        <label for="online payement">Online Payement</label><br><br>
+        <br><br>
+        <label for="notes">Notes:</label>
+        <textarea rows = "5" cols = "50" name = "notes"></textarea><br><br>
+        <input type="submit" value="submit"/>
+
+
+</html>
